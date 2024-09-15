@@ -17,4 +17,5 @@ let email = null;
 
 // object
 
-console.log(typeof email);
+console.log(typeof undefined); // Undefined
+console.log(typeof null); // object 
