@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If Else Conditions</title>
+</head>
+<body>
+    <!-- <h1>If Else Conditions</h1> -->
+     <script>
+        let age = 20;
+        citizanship = false;
+        registered = true;
+        if(age >= 18){
+            if(citizanship){
+                if(registered){
+                    console.log("You are eligible to vote.");
+                }else{
+                    console.log("You are not eligible to vote due to registration status.");
+                }
+            }else{
+                console.log("You are not eligible to vote due to citizenship status.");
+            }
+        }else{
+            console.log("You are not eligible to vote yet.");
+        }
+     </script>
+</body>
+</html>
