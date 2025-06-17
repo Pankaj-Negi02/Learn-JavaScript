@@ -1,4 +1,4 @@
-"use strict";
+"use strict";  // Treat all js code as newer version of JavaScript (ES6+)
 
 let name = "Pankaj";
 let age = 30;

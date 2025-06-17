@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Primitive</h1>
+    <!-- 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt -->
+    <h1>Reference / Non-Primitive</h1>
+    <!-- Arrays, Object, Functions -->
+
+    <script>
+        let str = "Hello World"; // String
+        let num = 12; // Number
+        let bol = true; // Boolean
+        let nul = null; // NUll
+        let und = undefined; // Undifined
+        let sym = Symbol("unique"); // Symbol
+        let bigInt = BigInt(123456789012345678901234567890); // BigInt
+        let arr = [1, 2, 3, 4, 5]; // Array (Reference Type)
+
+        console.log(typeof bigInt);
+
+        const myArr = [1, 2, 3, 4, 5];
+
+        const myObj = {
+            name: "Jhon",
+            age: 30,
+            isStudent: false,
+        }
+
+        const myFunc = function(){
+            console.log("This is a function");
+        }
+        myFunc();
+        
+    </script>
+</body>
+</html>
+
+
+
