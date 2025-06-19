@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date in Javascript</title>
+</head>
+<body>
+    <h1>Date in Javascript</h1>
+
+    <script>
+        let currDate = new Date();
+        //console.log(currDate);
+        //console.log(currDate.toString()); // Converts to string
+        //console.log(currDate.toDateString()); // Converts to date string
+        //console.log(currDate.toISOString()); // Converts to ISO string
+        //console.log(currDate.toJSON()); // Converts to JSON string
+        //console.log(currDate.toLocaleDateString()); // Converts to local date string
+        //console.log(currDate.toLocaleString()); // Converts to local string
+        //console.log(currDate.toLocaleTimeString()); // Converts to local time string
+
+        let myCreateDate = new Date("19-06-2024");
+
+        let myTimeStamp = Date.now();
+        // console.log(myTimeStamp);
+        console.log(Math.floor(Date.now()/1000)); // Converts to seconds
+    </script>
+</body>
+</html>
