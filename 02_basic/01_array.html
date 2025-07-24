@@ -52,7 +52,11 @@
         // Ques 07- Check and Remove
         let fruits02 = ["Apple", "Orange", "Banana", "Mango", "Grapes", "Pineapple"]
         console.log(fruits02);
-        console.log(fruits02.indexOf("Banana") + splice());
+        
+        if(fruits02.indexOf("Banana") !== -1){
+            fruits02.splice(fruits02.indexOf("Banana"), 1) // Removes the element from the array if it exists
+        }
+        console.log(fruits02); // Prints the array after removing the element
     </script>
 </body>
 </html>
